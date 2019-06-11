@@ -1,0 +1,6 @@
+.logo {
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Great Vibes', cursive;
+  color: cornsilk;
+}

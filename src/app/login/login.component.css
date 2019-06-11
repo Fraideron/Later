@@ -1,0 +1,73 @@
+:host {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  width: 768px;
+  height: 500px;
+  background-color: aliceblue;
+  margin-top: 2%;
+  opacity: .8;
+  border-radius: 20px;
+}
+
+.picture {
+  width: 50%;
+  background-image: url('../../assets/img/login_picture.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px 0px 0px 20px;
+}
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+}
+
+.content {
+  width: 80%;
+  color: #4e4848f2;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+
+.content>p {
+  font-weight: bold;
+  margin-top: -15%;
+}
+
+.subtitle {
+  font-size: .7em;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15%;
+}
+
+.signin {
+  width: 40%;
+  height: 50px;
+  font-size: .8em;
+}
+
+
+.google {
+  background-color: #ce2931;
+  color: white;
+}
+
+.twitter {
+  background-color: rgb(29, 161, 242);
+  color: white;
+
+}
